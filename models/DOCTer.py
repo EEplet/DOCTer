@@ -213,7 +213,7 @@ class DOCTer(nn.Module):
         self.drop = nn.Dropout(0.1)
 
     def forward(self, out):  
-        # 病因等特征提取
+        # feature extraction
         x, micro_sequence, cause_number, bc_number = out
         cause_embed = self.cause_embedding(cause_number)  # (N, 128)
         bc_embed = self.bc_embedding(bc_number)
