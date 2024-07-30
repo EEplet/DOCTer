@@ -24,6 +24,9 @@ csvfile='./res.csv'
 python master_old.py --normalize "y" --chs 'all' --testfreq $testf --csvfile $csvfile --fold $fold --timelen -1 --datapath $datapath --seed 99 --dropout 0.4 --weight_decay 0.0001 --epochs $epoch --batch_size 256 --lr 0.001 --clip 100 --model "DOCTer"  --cuda "cuda:0"
 ```
 
+## Notes
+Thank you for visiting. Due to time constraints, there are some imperfections. We will continue to improve this repository in the future.
+
 ## Contact
 For questions, feedback, or suggestions, please contact us at:
 
