@@ -133,7 +133,7 @@ class EEGDataset(Dataset):
             if self.chs != "all":
                 out = np.take(out, self.index, axis = 0)
             out = torch.as_tensor(out, dtype = torch.float)
-            out = (out, micro_number, cause_number, bc_number) # !!!
+            out = (out, micro_number, cause_number, bc_number)
 
         elif self.dtype == "TSception":
             out = np.load(self.path + self.data_list[idx])[:-1, :]
