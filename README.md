@@ -8,15 +8,6 @@ DOCTer is a framework designed for diagnosing disorders of consciousness(DOC) us
 - pycrostates 0.3.0+
 - PyTorch 0.4.0+
 
-## Usage
-
-### Data Preprocessing
-
-Prepare your EEG data by placing it in the `data/` directory. Then, run the preprocessing script:
-
-```bash
-python preprocess.py
-```
 
 ## Example
 
