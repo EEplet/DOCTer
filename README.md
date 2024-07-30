@@ -1,5 +1,5 @@
 # DOCTer
-The code of the paper "DOCTer: A Novel EEG-based Diagnosis Framework for Disorders of Consciousness".
+The code of the paper "DOCTer: A Novel EEG-based Diagnosis Framework for Disorders of Consciousness".  
 DOCTer is a framework designed for diagnosing disorders of consciousness(DOC) using EEG (electroencephalography) data through deep learning. For more information about the DOCTer framework, please refer to our paper.
 
 ## Dependencies
