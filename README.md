@@ -47,14 +47,6 @@ After training, evaluate the model's performance using:
 python evaluate.py --model saved_model --data test_data
 ```
 
-### Diagnosis
-
-Use the trained model to diagnose new EEG data:
-
-```bash
-python diagnose.py --model saved_model --input new_eeg_data
-```
-
 ## Example
 
 Here is a simple example of how to use the DOCTer framework:
@@ -74,10 +66,6 @@ result = model.diagnose(eeg_data)
 print("Diagnosis Result:", result)
 ```
 
-## Contributing
-
-We welcome contributions to the DOCTer project! If you'd like to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to get started.
-
 ## License
 
 DOCTer is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
@@ -86,5 +74,9 @@ DOCTer is licensed under the MIT License. See [LICENSE](LICENSE) for more detail
 
 For questions, feedback, or suggestions, please contact us at:
 
-- Email: yourname@example.com
+- Email: name@example.com
 - GitHub Issues: [https://github.com/EEplet/DOCTer/issues](https://github.com/EEplet/DOCTer/issues)
+
+## Citation
+If you find our code is useful, please cite our paper.
+
