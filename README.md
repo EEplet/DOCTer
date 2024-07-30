@@ -1,13 +1,6 @@
 # DOCTer
 
-DOCTer is an open-source framework designed for diagnosing consciousness disorders using EEG (electroencephalography) data through deep learning techniques. This repository aims to provide researchers and developers with a robust tool for analyzing and diagnosing consciousness-related disorders from EEG signals.
-
-## Features
-
-- **Deep Learning Model**: Utilizes advanced deep learning algorithms for diagnosing consciousness disorders.
-- **EEG Data Support**: Compatible with various EEG data formats for seamless integration.
-- **Complete Workflow**: Includes data preprocessing, feature extraction, model training, and evaluation.
-- **Visualization**: Provides tools for visualizing diagnosis results and model performance.
+DOCTer is an open-source framework designed for diagnosing disorders of consciousness using EEG (electroencephalography) data through deep learning. This repository aims to provide researchers and developers with a robust tool for analyzing and diagnosing consciousness-related disorders from EEG signals.
 
 ## Installation
 
@@ -16,7 +9,7 @@ DOCTer is an open-source framework designed for diagnosing consciousness disorde
 To get started, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/DOCTer.git
+git clone https://github.com/EEplet/DOCTer.git
 ```
 
 ### Install Dependencies
@@ -94,7 +87,4 @@ DOCTer is licensed under the MIT License. See [LICENSE](LICENSE) for more detail
 For questions, feedback, or suggestions, please contact us at:
 
 - Email: yourname@example.com
-- GitHub Issues: [https://github.com/yourusername/DOCTer/issues](https://github.com/yourusername/DOCTer/issues)
-```
-
-This README should cover the essential aspects of your project and help users get started with DOCTer. Feel free to customize it further based on your project's specifics and additional features.
+- GitHub Issues: [https://github.com/EEplet/DOCTer/issues](https://github.com/EEplet/DOCTer/issues)
