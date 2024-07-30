@@ -4,6 +4,8 @@ DOCTer is an open-source framework designed for diagnosing disorders of consciou
 
 ## Dependencies
 - Python 3.6+
+- mne 1.1.0+
+- pycrostates 0.3.0+
 - PyTorch 0.4.0+
 
 ## Installation
