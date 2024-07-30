@@ -38,7 +38,7 @@ python master_old.py --normalize "y" --chs 'all' --testfreq $testf --csvfile $cs
 
 For questions, feedback, or suggestions, please contact us at:
 
-- Email: name@example.com
+- Email: yue.cao@zju.edu.cn
 - GitHub Issues: [https://github.com/EEplet/DOCTer/issues](https://github.com/EEplet/DOCTer/issues)
 
 ## Citation
