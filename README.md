@@ -66,10 +66,6 @@ result = model.diagnose(eeg_data)
 print("Diagnosis Result:", result)
 ```
 
-## License
-
-DOCTer is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
-
 ## Contact
 
 For questions, feedback, or suggestions, please contact us at:
