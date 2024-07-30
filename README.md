@@ -3,8 +3,8 @@
 DOCTer is an open-source framework designed for diagnosing disorders of consciousness using EEG (electroencephalography) data through deep learning. This repository aims to provide researchers and developers with a robust tool for analyzing and diagnosing consciousness-related disorders from EEG signals.
 
 ## Dependencies
--Python 3.6+
--PyTorch 0.4.0+
+- Python 3.6+
+- PyTorch 0.4.0+
 
 ## Installation
 
