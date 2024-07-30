@@ -1,31 +1,12 @@
 # DOCTer
-
-DOCTer is an open-source framework designed for diagnosing disorders of consciousness(DOC) using EEG (electroencephalography) data through deep learning. This repository aims to provide researchers and developers with a robust tool for analyzing and diagnosing DOC from EEG signals. For more information about the DOCTer framework, please refer to our paper (DOCTer: A Novel EEG-based Diagnosis Framework for Disorders of Consciousness).
+The code of the paper "DOCTer: A Novel EEG-based Diagnosis Framework for Disorders of Consciousness".
+DOCTer is a framework designed for diagnosing disorders of consciousness(DOC) using EEG (electroencephalography) data through deep learning. For more information about the DOCTer framework, please refer to our paper.
 
 ## Dependencies
 - Python 3.6+
 - mne 1.1.0+
 - pycrostates 0.3.0+
 - PyTorch 0.4.0+
-
-## Installation
-
-### Clone the Repository
-
-To get started, clone this repository to your local machine:
-
-```bash
-git clone https://github.com/EEplet/DOCTer.git
-```
-
-### Install Dependencies
-
-Navigate to the project directory and install the required Python packages:
-
-```bash
-cd DOCTer
-pip install -r requirements.txt
-```
 
 ## Usage
 
@@ -34,42 +15,23 @@ pip install -r requirements.txt
 Prepare your EEG data by placing it in the `data/` directory. Then, run the preprocessing script:
 
 ```bash
-python preprocess.py --input data/your_eeg_data --output processed_data
-```
-
-### Model Training
-
-Train the deep learning model with the preprocessed data:
-
-```bash
-python train.py --data processed_data --epochs 50
-```
-
-### Model Evaluation
-
-After training, evaluate the model's performance using:
-
-```bash
-python evaluate.py --model saved_model --data test_data
+python preprocess.py
 ```
 
 ## Example
 
 Here is a simple example of how to use the DOCTer framework:
 
-```python
-from docter import Model
+```bash
+epoch=100
+datapath="/data/EEG/"
+seed=99
+fold=10
+chs='all'
+testf=20
+csvfile='./res.csv'
 
-# Load the pre-trained model
-model = Model.load('saved_model')
-
-# Load new EEG data
-eeg_data = read_eeg_data('data/new_eeg_data')
-
-# Perform diagnosis
-result = model.diagnose(eeg_data)
-
-print("Diagnosis Result:", result)
+python master_old.py --normalize "y" --chs 'all' --testfreq $testf --csvfile $csvfile --fold $fold --timelen -1 --datapath $datapath --seed 99 --dropout 0.4 --weight_decay 0.0001 --epochs $epoch --batch_size 256 --lr 0.001 --clip 100 --model "DOCTer"  --cuda "cuda:0"
 ```
 
 ## Contact
