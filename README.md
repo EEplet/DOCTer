@@ -25,7 +25,7 @@ python master_old.py --normalize "y" --chs 'all' --testfreq $testf --csvfile $cs
 ```
 
 ## Notes
-Thank you for visiting. Due to time constraints, there are some imperfections. We will continue to improve this repository in the future.
+Thank you for visiting. The dataset cannot be made publicly available upon publication because it contains sensitive personal information. We will continue to improve this repository in the future.
 
 ## Contact
 For questions, feedback, or suggestions, please contact us at:
