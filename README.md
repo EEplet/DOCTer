@@ -4,9 +4,14 @@ DOCTer is a framework designed for diagnosing disorders of consciousness(DOC) pr
 
 ## Dependencies
 - Python 3.6+
+- einops 0.6.1+
 - mne 1.1.0+
+- numpy 1.20.0+
+- pandas 1.4.2+
 - pycrostates 0.3.0+
-- PyTorch 0.4.0+
+- PyTorch 1.12.0+
+- scikit-learn 1.0.2+
+- scipy 1.7.3+
 
 
 ## Example
